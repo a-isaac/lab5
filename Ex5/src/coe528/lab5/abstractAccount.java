@@ -9,6 +9,8 @@ package coe528.lab5;
  *
  * @author a2isaac
  */
-public class abstractAccount {
-    //testing this for later
+public abstract class abstractAccount {
+    public abstract int withdraw();
+    public abstract void deposit();
+    public abstract int checkBalance();
 }
